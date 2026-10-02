@@ -34,3 +34,6 @@ Run tests using:
 
 python -m pytest
 
+## Continuous Integration
+
+This project will use Jenkins to automatically build and test changes.
