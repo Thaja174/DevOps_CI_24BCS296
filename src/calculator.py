@@ -22,3 +22,7 @@ def is_even(a):
 
 def square(a):
     return a * a
+
+
+def power(a, b):
+    return a ** b
