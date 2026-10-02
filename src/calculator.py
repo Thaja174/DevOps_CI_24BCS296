@@ -14,3 +14,15 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+
+def is_even(a):
+    return a % 2 == 0
+
+
+def square(a):
+    return a * a
+
+
+def power(a, b):
+    return a ** b
