@@ -8,7 +8,7 @@ sys.path.insert(
     )
 )
 
-from calculator import add, subtract, multiply, divide, is_even, power
+from calculator import add, subtract, multiply, divide, is_even, power, modulo
 
 
 def test_add():
@@ -33,3 +33,7 @@ def test_is_even():
 
 def test_power():
     assert power(2, 3) == 8
+
+
+def test_modulo():
+    assert modulo(10, 3) == 1
