@@ -1,0 +1,58 @@
+Script started on 2026-10-02 14:39:48+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="41"]
+[?2004h]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ [7mpwd[27mpwd
+[?2004l/mnt/c/Users/ADMIN/DevOps_CI_24BCS296
+[?2004h]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+	[31mmodified:   Jenkinsfile[m
+	[31mmodified:   README.md[m
+	[31mmodified:   src/calculator.py[m
+	[31mmodified:   tests/test_calculator.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mgit_execution.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ [7mgit branch -a[27mgit branch -a
+[?2004l[?1h=  bugfix-24BCS296[m[m
+  feature-24BCS296[m[m
+* [32mmain[m[m
+  [31mremotes/origin/feature-24BCS296[m[m
+  [31mremotes/origin/main[m[m
+[K[?1l>[?2004h]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	https://github.com/Thaja174/DevOps_CI_24BCS296 (fetch)
+origin	https://github.com/Thaja174/DevOps_CI_24BCS296 (push)
+[?2004h]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ [7mgit log --oneli[27m[7mn[27m[7me --decorate --graph --all -10[27m[A]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ git log --oneline --decorate --graph --all -10
+[?2004l[?1h=* [33mf541d87[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Add modulo calculation and test[m
+* [33mcc3c811[m Fix Jenkinsfile Windows Python path[m
+* [33md9da784[m Add Jenkins CI pipeline[m
+*   [33mae41c46[m Sync local main with GitHub PR merge[m
+[32m|[m[33m\[m  [m
+[32m|[m *   [33m0fe663c[m Merge pull request #1 from Thaja174/feature-24BCS296[m
+[32m|[m [34m|[m[35m\[m  [m
+[32m|[m [34m|[m * [33m42b87e9[m[33m ([m[1;31morigin/feature-24BCS296[m[33m, [m[1;32mfeature-24BCS296[m[33m)[m Add power calculat[m [32m[m[34m[m[33m[m[33m[m[1;31m[m[33m[m[1;32m[m[33m[mion feature[m
+* [34m|[m [35m|[m   [33m8f83f2c[m Resolve merge conflict between feature and main[m
+[36m|[m[35m\[m [34m\[m [35m\[m  [m
+[36m|[m [35m|[m [34m|[m[35m/[m  [m
+[36m|[m [35m|[m[35m/[m[34m|[m   [m
+[36m|[m * [34m|[m [33m949a8e6[m Add square calculation feature[m
+[36m|[m [34m|[m[34m/[m  [m
+* [34m/[m [33mbcaa94a[m[33m ([m[1;32mbugfix-24BCS296[m[33m)[m Add even number validation[m
+[34m|[m[34m/[m  [m
+* [33m70c8586[m Update CI documentation[m
+[K[?1l>[?2004h]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ [7mgit log --oneli[27m[7mn[27m[7me -5[27m[A]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ git log --oneline -5
+[?2004l[?1h=[33mf541d87[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Add modulo calculation and test[m
+[33mcc3c811[m Fix Jenkinsfile Windows Python path[m
+[33md9da784[m Add Jenkins CI pipeline[m
+[33mae41c46[m Sync local main with GitHub PR merge[m
+[33m0fe663c[m Merge pull request #1 from Thaja174/feature-24BCS296[m
+[K[?1l>[?2004h]0;thaja@DESKTOP-5ABSGQP: /mnt/c/Users/ADMIN/DevOps_CI_24BCS296[01;32mthaja@DESKTOP-5ABSGQP[00m:[01;34m/mnt/c/Users/ADMIN/DevOps_CI_24BCS296[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-10-02 14:40:44+00:00 [COMMAND_EXIT_CODE="0"]
