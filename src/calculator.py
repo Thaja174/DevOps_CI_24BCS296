@@ -18,3 +18,7 @@ def divide(a, b):
 
 def is_even(a):
     return a % 2 == 0
+
+
+def square(a):
+    return a * a
